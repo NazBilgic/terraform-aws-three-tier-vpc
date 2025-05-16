@@ -1,0 +1,15 @@
+# Terraform local files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive variable files
+*.tfvars
+
+# OS / Editor / IDE stuff
+.DS_Store
+*.log
+*.swp
+.idea/
+.vscode/
